@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+   font-weight: bolder;
+   margin-bottom: 0;
+}
+.hr-style{
+   border: 5px dotted white;
+   border-bottom: none;
+   width: 50px;
+   position: center;
+   margin-left: 300px;
+}
+
+header{
+    background-image: url("https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+height: 75vh;
+
+
+ }
+ .navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+ }
+ .bar{
+    color: white; 
+ }
+ .navc-link{
+    color:white;
+    margin: 10px;
+    border-radius:5px;
+    transform: 4s;
+    text-decoration: none;
+    
+ }
+ .navc-link:hover{
+     background: white; 
+    outline-offset: white;
+    transform: scale(1.1);
+ }
+ 
+ 
+ .banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(21,100,168);
+    padding: 18px 20px;
+    font-family: 'handlee',cursive;
+ }
+ 
+ 
+ /* features starts here */
+ #features{
+   padding: 5% 10%;
+   background: #e8ded2;
+}
+.features-col{
+   border: 1px solid #ff02c0;
+   border-radius: 15px;
+   padding: 15px;
+   margin: 20px 0;
+   transition: .4s;
+}
+.features-col:hover{
+   transform: scale(1.1);
+   box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+   background: #bb0aac;
+   color: white;
+   padding: 15px;
+   margin: 5px 0;
+}
+/* about-me starts here */
+#about-me{
+   padding: 4% 10%;
+   /* background: #e8ded2; */
+}
+#about-me p{
+   font-size: 0.9rem;
+   margin-top: 0;
+   font-weight: light;
+}
+#about-me a{
+   font-size: 0.9rem;
+   font-weight: lighter;
+   color: black;
+   text-decoration: underline;
+
+}
+.b-span{
+   font-weight: 700 !important;
+}
+.star{
+   width: 20px;
+   padding: auto;
+   margin: 20px auto;
+}
+
+/* tutorial starts here */
+#Tutorial{
+   padding: 4% 10%;
+   background: #a3d2ca;
+}
+.card{
+   transition: .4s;
+   border: 1px solid #ff02c0;
+}
+.card:hover{
+   transform: scale(1.1);
+   box-shadow: 2px 6px 5px black;
+}
+/* tutorial ends here */
+
+/* about-me starts here */
+
+/* feedback starts here */
+#feedback{
+   padding: 5%;
+   background: #5eaaa8;
+}
+.carousel-item{
+   text-align: center;
+   padding: 7% 15%;
+   font-style: italic;
+   font-size: 1.2rem;
+}
+.feedback-item{
+   width: 350px;
+   height: auto;
+   margin-bottom: 5px;
+}
+
+/* feedback ends here */
+
+/* contact starts here */
+#contact-me{
+   padding: 2% 10%;
+   background: #5eaaa8;
+}
+/* contact ends here */
+
+/* footer starts here */
+footer{
+   padding: 1% 10%;
+   background: #056676; 
+}
+footer a{
+   color: white;
+   margin: 0 20px;
+}
+footer a:hover{
+   color: black;
+}
+@media (max-width: 768px){
+   .nav-link{
+       background: rgb(0,0,0,0.7); 
+   }
+   .banner-container h1{
+      font-size: 2.5rem;
+      
+   }
+}
+
+/* footer ends here */
+
+
+
+ /* teatures ends here */
